@@ -1,4 +1,5 @@
-# SapCxChromeDebbuger
+# SapCxChromeDebbuger /!\ compatibility Sap Sx 19005 and later
+
 
 
 1- Clone source or download zip from gitHub
