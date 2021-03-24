@@ -1,4 +1,4 @@
-# SapCxChromeDebbuger /!\ compatibility Sap Sx 19005 and later
+# SapCxChromeDebbuger /!\ compatibility : Sap Sx 19005 and later
 
 
 
