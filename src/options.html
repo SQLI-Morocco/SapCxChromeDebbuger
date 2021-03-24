@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Test Extension Options</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="options.js"></script>
+    <style>
+        body {
+            background-color: #fff;
+            font-family: 'Noto Sans SC', sans-serif;
+            font-size: 12px;
+            color: #333;
+        }
+        table {
+            padding: 0;
+            border-spacing: 0px;
+            margin: 0;
+            margin-top: 10px;
+            border: 1px solid #ede;
+            border-radius: 3px;
+        }
+        thead > tr {
+            background-color: #eee;
+        }
+        tr > th {
+            padding: 6px;
+        }
+        tbody > tr > td {
+            border-bottom: 1px solid #eee;
+            padding: 7px 10px;
+        }
+        tbody > tr:last-child > td {
+            border-bottom: 0;
+        }
+        input {
+            border-radius: 3px;
+            border: 1px solid #ddd;
+            padding: 8px;
+            color: #555;
+        }
+        .delete {
+            width: 30px;
+            height: 28px;
+            background-color: red;
+            border: 1px solid red;
+            border-radius: 3px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .drag {
+            width: 30px;
+            height: 28px;
+            background-color: #eee;
+            border: 1px solid #eee;
+            border-radius: 3px;
+            color: #555;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button#save {
+            margin-top: 10px;
+            padding: 5px 15px;
+            border: 1px solid #CCC;
+            background-color: #eee;
+            border-radius: 3px;
+        }
+        .backOffice > label,.ulrMatches > label {
+            padding: 8px 20px;
+            margin-right: 5px;
+            background: #eee;
+            width: 60px;
+            text-align: center;
+            display: inline-block;
+            border-radius: 3px;
+            color: #333;
+        }
+        .backOffice > input, .ulrMatches > input {
+            display: inline-block;
+            width: calc(100% - 126px);
+        }
+        .ulrMatches {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<table id="backOffice">
+    <thead>
+    <tr>
+        <th>Environment ( regEx)</th>
+        <th>backoffice URL</th>
+        <th colspan="2"></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><input type="text" class="inputEnvironment"></td>
+        <td><input type="text" class="inputbackOffice"></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+<table id="pattern">
+    <thead>
+        <tr>
+            <th>Label</th>
+            <th>Regex</th>
+            <th colspan="2"></th>
+        </tr>
+    </thead>
+    <tbody id="sortable">
+        <tr>
+            <td><input type="text" class="inputLabel"></td>
+            <td><input type="text" class="inputRegex"></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<div id="status"></div>
+
+<button id="save">Save</button>
+</body>
+</html>
