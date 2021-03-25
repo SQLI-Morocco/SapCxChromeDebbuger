@@ -1,4 +1,4 @@
-# SapCxChromeDebbuger  author : Youssef El Omari alaoui  elomari.alaoui.youssef@gmail.com © 2021
+# SapCxChromeDebbuger |  author : Youssef El Omari alaoui  elomari.alaoui.youssef@gmail.com © 2021
 
 /!\ compatibility : Sap Sx 19005 and later
 
