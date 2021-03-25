@@ -41,7 +41,7 @@
         ProductPk=${fn:escapeXml(product.pk)}
 
 
-2- add '<' property name="pk" type="java.lang.String" '/>' in your bean <bean class="de.hybris.platform.commercefacades.product.data.ProductData">
+2- add '<' property name="pk" type="java.lang.String" '/>' in your bean '<'bean class="de.hybris.platform.commercefacades.product.data.ProductData"'>'
    in projectNamefacades-beans.xml file.
 
 
