@@ -1,6 +1,7 @@
-# SapCxChromeDebbuger /!\ compatibility : Sap Sx 19005 and later
-author : Youssef El Omari alaoui  elomari.alaoui.youssef@gmail.com
-© 2021
+# SapCxChromeDebbuger  author : Youssef El Omari alaoui  elomari.alaoui.youssef@gmail.com © 2021
+
+/!\ compatibility : Sap Sx 19005 and later
+
 
 
 1- Clone source or download zip from gitHub
